@@ -27,7 +27,7 @@ class Product extends Component {
                     </div>
                     <div className="col text-center text-bg-dark d-flex flex-column justify-content-evenly align-items-center">
                          <h1 className="display-5">{Data[title].description}</h1>
-                         <div className={`card bg-${shade} w-50`}>
+                         <div className={`card bg-${shade} text-bg-${shade} w-50`}>
                               <div className="card-header display-6">
                                    Price: ${price} 
                               </div>
