@@ -5,8 +5,17 @@ import { Component } from "react";
 class Home extends Component {
   constructor(props) {
     super(props);
-    
+    this.state = {
+      cartItems: []
+    }
   }
+
+  add_item = (item,number) => {
+    this.setState({
+      cartItems: this.state.cartItems + number*[item]
+    });
+  };
+
   render() {
     return (
       <div>

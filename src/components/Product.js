@@ -7,7 +7,8 @@ class Product extends Component {
           super(props);
           let s = window.location.pathname;
           this.state = {
-               title: s.slice(s.lastIndexOf('/') + 1)
+               title: s.slice(s.lastIndexOf('/') + 1),
+               quantity: 0
           }
      }
 
@@ -29,18 +30,22 @@ class Product extends Component {
                          <h1 className="display-5">{Data[title].description}</h1>
                          <div className={`card bg-${shade} text-bg-${shade} w-50`}>
                               <div className="card-header display-6">
-                                   Price: ${price} 
+                                   Price: ${price}
                               </div>
                               <div className="card-body">
                                    <h5 className="card-title h2">{title}</h5>
-                                   <p className="card-text"> </p>
-                                   <a href="#" className="btn btn-lg btn-primary">Add to Cart</a>
+                                   <div className="input-group d-flex flex-row justify-content-center my-5">
+                                        <button className="btn btn-success" onClick={() => {this.setState({quantity: this.state.quantity+1})}}>+</button>
+                                        <input className="input-group-text" type="number" min={0} max={100} value={this.state.quantity} disabled />
+                                        <button  className="btn btn-danger" onClick={() => {this.setState({quantity: this.state.quantity-1})}}>-</button>
+                                   </div>
+                                   <button href="#" className="btn btn-lg btn-primary">Add to Cart</button>
                               </div>
                          </div>
 
-                         <button type="button" className={`btn btn-${shade}`}>
-                              Click Here To Read More <span className={`badge text-bg-${shade}`} onClick={(e) => { window.location.assign(`https://lotr.fandom.com/wiki/${title}`) }}> Fandom </span>
-                         </button>
+                         <a href={`https://lotr.fandom.com/wiki/${title}`} className={`btn btn-${shade}`}>
+                              Click Here To Read More <span className={`badge text-bg-${shade}`}> Fandom </span>
+                         </a>
                     </div>
                </div>
           );
