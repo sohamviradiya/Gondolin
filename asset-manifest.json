@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.84487ea8.css",
+    "main.js": "/static/js/main.545197ee.js",
+    "static/media/ingwe.jpg": "/static/media/ingwe.ac93ccfaa489626c68dd.jpg",
+    "static/media/gothmog.jpg": "/static/media/gothmog.d8668b2f24bb44125f25.jpg",
+    "static/media/carcharoth.jpg": "/static/media/carcharoth.efaba960029e567f3a2a.jpg",
+    "static/media/beren.jpg": "/static/media/beren.16f2ce94fcc767ce5af6.jpg",
+    "static/media/thorondor.jpg": "/static/media/thorondor.77550252ec1f3195685b.jpg",
+    "static/media/beleg.jpg": "/static/media/beleg.6003e83bdd26e6099ddc.jpg",
+    "static/media/finwe.jpg": "/static/media/finwe.35759b14116f1d0c2a41.jpg",
+    "static/media/morgoth.jpg": "/static/media/morgoth.0f3741448580074aaa36.jpg",
+    "static/media/earendil.jpg": "/static/media/earendil.710f0d80018c4917d0af.jpg",
+    "static/media/background.jpg": "/static/media/background.e4020802ff80a3200801.jpg",
+    "static/media/ancalagon.jpg": "/static/media/ancalagon.7dca68f543297fcfbe0c.jpg",
+    "static/media/maedhros.jpg": "/static/media/maedhros.8f1b7fc3975eb5bb11e2.jpg",
+    "static/media/durin.jpg": "/static/media/durin.b85df521380fc05a379d.jpg",
+    "static/media/sauron.jpg": "/static/media/sauron.0fef75329d8f95991853.jpg",
+    "static/media/finarfin.jpg": "/static/media/finarfin.a57713cfa1f465abaff9.jpg",
+    "static/media/thuringwethil.jpg": "/static/media/thuringwethil.493b4eb854f4fd2f0d34.jpg",
+    "static/media/finrod.jpg": "/static/media/finrod.e40539ae5d53ebafd4b6.jpg",
+    "static/media/fingolfin.jpg": "/static/media/fingolfin.4cdc1042e3c5489e12b8.jpg",
+    "static/media/glaurung.jpg": "/static/media/glaurung.9e3f7463aaee551a1ce0.jpg",
+    "static/media/ungoliant.jpg": "/static/media/ungoliant.68d88ce43025acae930f.jpg",
+    "static/media/thingol.jpg": "/static/media/thingol.8ac2c0731b95fd8ee5f4.jpg",
+    "static/media/maeglin.jpg": "/static/media/maeglin.fea0111917e3f875111d.jpg",
+    "static/media/turgon.jpg": "/static/media/turgon.988ffc574748e8bc0880.jpg",
+    "static/media/ecthelion.jpg": "/static/media/ecthelion.58f188780598fa7142e8.jpg",
+    "static/media/feanor.jpg": "/static/media/feanor.2152bac87213bc89cd44.jpg",
+    "static/media/turin.jpg": "/static/media/turin.5861c428c6f579c5ae0f.jpg",
+    "index.html": "/index.html",
+    "main.84487ea8.css.map": "/static/css/main.84487ea8.css.map",
+    "main.545197ee.js.map": "/static/js/main.545197ee.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.84487ea8.css",
+    "static/js/main.545197ee.js"
+  ]
+}

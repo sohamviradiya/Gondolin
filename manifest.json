@@ -1,0 +1,8 @@
+{
+  "short_name": "Gondolin",
+  "name": "Shopping cart app with React",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
