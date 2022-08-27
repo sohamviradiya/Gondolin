@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route} from "react-router-dom";
+import { HashRouter, Routes, Route} from "react-router-dom";
 import Home from "./Home";
 import Shop from "./Shop";
 import Header from "./components/Header";
@@ -22,7 +22,7 @@ const RouteSwitch = () => {
      }
      
      return (
-          <BrowserRouter>
+          <HashRouter>
                <Header />
                <div className="my-5 p-5 bg-dark">
                     <Routes>
@@ -32,7 +32,7 @@ const RouteSwitch = () => {
                          <Route path="*" element={<Product add={add_title} />}/>
                     </Routes>
                </div>
-          </BrowserRouter>
+          </HashRouter>
      );
 };
 

@@ -5,7 +5,8 @@ import { varDestructer } from '../assets/data';
 class Product extends Component {
      constructor(props) {
           super(props);
-          let s = window.location.pathname;
+          let s = window.location.hash;
+          
           this.state = {
                title: s.slice(s.lastIndexOf('/') + 1),
                quantity: 0
